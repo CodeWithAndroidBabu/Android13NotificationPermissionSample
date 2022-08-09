@@ -14,7 +14,7 @@ import androidx.core.app.NotificationManagerCompat
 import androidx.core.content.ContextCompat
 
 class MainActivity : AppCompatActivity() {
-    lateinit var btn: Button
+    private lateinit var btn: Button
     lateinit var requestPermissionLauncher: ActivityResultLauncher<String>
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
